@@ -8,8 +8,8 @@ uses(RefreshDatabase::class);
 
 test('create student', function () {
     $student = Student::create([
-        'name' => 'Hok Sochetra',
-        'email' => 'e20201277@itc.edu.kh',
+        'name' => 'CHAB Sreylen',
+        'email' => 'e20200671@itc.edu.kh',
         'phone' => '012 345 678',
         'dob' => '2003-10-01'
     ]);
