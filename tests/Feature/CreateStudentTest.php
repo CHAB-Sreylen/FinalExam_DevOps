@@ -11,7 +11,7 @@ test('create student', function () {
         'name' => 'CHAB Sreylen',
         'email' => 'e20200671@itc.edu.kh',
         'phone' => '012 345 678',
-        'dob' => '2003-10-01'
+        'dob' => '2002-10-01'
     ]);
 
     assertTrue($student->exists());
